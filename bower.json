@@ -1,0 +1,36 @@
+{
+  "name": "gulp_start_boilerplate",
+  "description": "Starting template for frontend development",
+  "main": "",
+  "authors": [
+    "Stupakov Alexy"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.3",
+    "bootstrap-sass": "^3.3.6",
+    "jquery": "2.2.4"
+  },
+  "overrides": {
+    "font-awesome": {
+      "main": [
+        "./css/font-awesome.min.css" 
+      ]
+    },
+    "bootstrap-sass": {
+      "main": [
+        "assets/javascripts/bootstrap.js",
+        "../../style/bootstrap.css"
+      ]
+    }
+  },
+  "devDependencies": {}
+}

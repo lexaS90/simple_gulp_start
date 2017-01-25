@@ -1,0 +1,30 @@
+{
+  "name": "simple_gulp_start",
+  "version": "1.0.0",
+  "description": "Starting template for frontend development",
+  "author": "Stupakov Alexy",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.6.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-html-extend": "^1.1.6",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-main-bower-files": "^1.6.1",
+    "gulp-prettify": "^0.4.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "^2.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-useref": "^3.1.0",
+    "imagemin-pngquant": "^5.0.0",
+    "node-bourbon": "^4.2.8",
+    "wiredep": "^4.0.0"
+  }
+}

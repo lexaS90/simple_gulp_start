@@ -47,8 +47,8 @@ var path = {
         style: 'src/style/main.scss',
         img: 'src/img/**/*.*',
         fonts: 'src/fonts/**/*.*',
-        bootstrapScss: 'src/style/bootstrap.scss',
-        bootstrapCss: 'src/style/',
+        bootstrapScss: 'src/style/bootstrap/bootstrap.scss',
+        bootstrapCss: 'src/vendor/bootstrap-sass/assets/stylesheets',
     },
     watch: {
         html: 'src/**/*.html',
@@ -128,20 +128,19 @@ gulp.task('js:build', function () {
  * Bootstrap
  */
 
-/*
+
 gulp.task('bootstrap:build', function () {
   return gulp.src(path.src.bootstrapScss)
     .pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
     .pipe(gulp.dest(path.src.bootstrapCss));
 });
-
-*/
 
 /*
  * Vendor
  */
 
-gulp.task('vendor:build', function() {
+gulp.task('vendor:build',['bootstrap:build'], function() {
     var filterJS = gulpFilter('**/*.js', { restore: true, passthrough: false });
     var filterCss = gulpFilter('**/*.css', { restore: true, passthrough: false });
 

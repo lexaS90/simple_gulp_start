@@ -12,7 +12,6 @@
     "gulp-clean-css": "^2.0.10",
     "gulp-concat": "^2.6.1",
     "gulp-filter": "^4.0.0",
-    "gulp-html-extend": "^1.1.6",
     "gulp-if": "^2.0.1",
     "gulp-imagemin": "^3.0.1",
     "gulp-main-bower-files": "^1.6.1",
@@ -22,10 +21,8 @@
     "gulp-size": "^2.1.0",
     "gulp-sourcemaps": "^2.4.0",
     "gulp-uglify": "^1.5.3",
-    "gulp-useref": "^3.1.0",
     "gulp-watch": "^4.3.11",
     "imagemin-pngquant": "^5.0.0",
-    "node-bourbon": "^4.2.8",
-    "wiredep": "^4.0.0"
+    "node-bourbon": "^4.2.8"
   }
 }

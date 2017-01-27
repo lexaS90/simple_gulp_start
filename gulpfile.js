@@ -11,18 +11,14 @@ var rigger                  = require('gulp-rigger');
 var browserSync             = require('browser-sync');
 var reload                  = browserSync.reload;
 var watch                   = require('gulp-watch');
-var cache               = require('gulp-cache');
-var imagemin            = require('gulp-imagemin');
-var pngquant            = require('imagemin-pngquant');
+var cache                   = require('gulp-cache');
+var imagemin                = require('gulp-imagemin');
+var pngquant                = require('imagemin-pngquant');
 
-
-var wiredep 			= require('wiredep').stream;
 var del 					= require('del');
 var gulpif 				= require('gulp-if');
-var useref 				= require('gulp-useref');
 var filter 				= require('gulp-filter');
 var size 					= require('gulp-size');
-var extender 			= require('gulp-html-extend');
 var prettify 			= require('gulp-prettify');
 
 
